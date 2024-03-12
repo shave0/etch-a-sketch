@@ -1,0 +1,19 @@
+#containerDiv{
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+}
+
+.column{
+ display: flex;
+ justify-content: center;
+ gap: 4px;
+}
+
+.row{
+    aspect-ratio: 1 / 1;
+    width: 100px;
+    border: medium solid black;
+}
